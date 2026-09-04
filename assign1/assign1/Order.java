@@ -50,6 +50,6 @@ public class Order {
 		this.orderDate = orderDate;
 	}
 	public String toString() {
-		return String.format("+%d\t %-26s%15.2f", this.orderID, this.productType, this.totalAmount);
+		return String.format("%-9d%-30s%11.2f", this.orderID, this.productType, this.totalAmount);
 	}
 }
